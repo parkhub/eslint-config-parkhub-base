@@ -1,4 +1,4 @@
-#eslint-config-parkhub-base
+# eslint-config-parkhub-base
 
 Parkhub's very own canonical Javascript style guide. Well, some of it :D. Based off [airbnb's style guide][airbnb-base-style-guide] with some minor modifications.
 This are the base rules(non-React)
