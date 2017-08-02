@@ -178,7 +178,7 @@ MIT
 [nlpcc]: https://eslint.org/docs/rules/newline-per-chained-call
 [inc]: https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-commonjs.md
 [cd]: https://eslint.org/docs/rules/comma-dangle
-[epj]: https://www.npmjs.com/package/eslint-plugin-jest
+[epj]: https://www.npmjs.com/package/@parkhub/eslint-plugin-jest
 [semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [sem-release-badge]: https://github.com/semantic-release/semantic-release
 [build-badge]:  https://g.codefresh.io/api/badges/build?repoOwner=parkhub&repoName=eslint-config-parkhub-base&branch=master&pipelineName=eslint-config-parkhub-base&accountName=loganbfisher&type=cf-1
@@ -187,9 +187,9 @@ MIT
 [coverage]: https://codecov.io/gh/parkhub/eslint-config-parkhub-base
 [dependencyci-badge]: https://dependencyci.com/github/parkhub/eslint-config-parkhub-base/badge?style=flat-square
 [dependencyci]: https://dependencyci.com/github/parkhub/eslint-config-parkhub-base
-[version-badge]: https://img.shields.io/npm/v/eslint-config-parkhub-base.svg?style=flat-square
-[package]: https://www.npmjs.com/package/eslint-config-parkhub-base
-[license-badge]: https://img.shields.io/npm/l/eslint-config-parkhub-base.svg?style=flat-square
+[version-badge]: https://img.shields.io/npm/v/@parkhub/eslint-config-parkhub-base.svg?style=flat-square
+[package]: https://www.npmjs.com/package/@parkhub/eslint-config-parkhub-base
+[license-badge]: https://img.shields.io/npm/l/@parkhub/eslint-config-parkhub-base.svg?style=flat-square
 [license]: https://github.com/parkhub/eslint-config-parkhub-base/blob/master/LICENSE
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
