@@ -1,7 +1,3 @@
-[![Codefresh build status]( https://g.codefresh.io/api/badges/build?repoOwner=FuzzOli87&repoName=condition-codefresh&branch=master&pipelineName=condition-codefresh&accountName=fuzzoli87&type=cf-1)]( https://g.codefresh.io/repositories/FuzzOli87/condition-codefresh/builds?filter=trigger:build;branch:master;service:5961242042986e00015238a5~condition-codefresh)
-[![Dependency Status](https://dependencyci.com/github/FuzzOli87/condition-codefresh/badge)](https://dependencyci.com/github/FuzzOli87/condition-codefresh)
-[![codecov](https://codecov.io/gh/FuzzOli87/condition-codefresh/branch/master/graph/badge.svg)](https://codecov.io/gh/FuzzOli87/condition-codefresh)
-
 #eslint-config-parkhub-base
 
 Parkhub's very own canonical Javascript style guide. Well, some of it :D. Based off [airbnb's style guide][airbnb-base-style-guide] with some minor modifications.
@@ -15,7 +11,7 @@ This are the base rules(non-React)
 [![PRs Welcome][prs-badge]][prs]
 [![Roadmap][roadmap-badge]][roadmap]
 [![Semantic Release][semantic-release-badge]][sem-release-badge]
-[ ![Commitizen][commitizen-friendly-badge]][comm-friendly-badge]
+[![Commitizen][commitizen-friendly-badge]][comm-friendly-badge]
 
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
@@ -144,7 +140,7 @@ You must install peerDependencies.
 
 To list them:
 ```bash
-npm info eslint-config-parkhub-base peerDependencies
+npm info @parkhub/eslint-config-parkhub-base peerDependencies
 ```
 
 Then install them by running:
@@ -155,7 +151,7 @@ npm install -D <dependency:version>
 Or, in your OSX/Linux:
 ```bash
 (
-  export PKG=eslint-config-parkhub-base;
+  export PKG=@parkhub/eslint-config-parkhub-base;
   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install -D "$PKG@latest"
 )
 ```
@@ -183,4 +179,31 @@ MIT
 [inc]: https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-commonjs.md
 [cd]: https://eslint.org/docs/rules/comma-dangle
 [epj]: https://www.npmjs.com/package/eslint-plugin-jest
+[semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[sem-release-badge]: https://github.com/semantic-release/semantic-release
+[build-badge]:  https://g.codefresh.io/api/badges/build?repoOwner=parkhub&repoName=eslint-config-parkhub-base&branch=master&pipelineName=eslint-config-parkhub-base&accountName=loganbfisher&type=cf-1
+[build]:  https://g.codefresh.io/repositories/parkhub/eslint-config-parkhub-base/builds?filter=trigger:build;branch:master;service:59821c960ae1710001fef83c~eslint-config-parkhub-base
+[coverage-badge]: https://img.shields.io/codecov/c/github/parkhub/eslint-config-parkhub-base.svg?style=flat-square
+[coverage]: https://codecov.io/gh/parkhub/eslint-config-parkhub-base
+[dependencyci-badge]: https://dependencyci.com/github/parkhub/eslint-config-parkhub-base/badge?style=flat-square
+[dependencyci]: https://dependencyci.com/github/parkhub/eslint-config-parkhub-base
+[version-badge]: https://img.shields.io/npm/v/eslint-config-parkhub-base.svg?style=flat-square
+[package]: https://www.npmjs.com/package/eslint-config-parkhub-base
+[license-badge]: https://img.shields.io/npm/l/eslint-config-parkhub-base.svg?style=flat-square
+[license]: https://github.com/parkhub/eslint-config-parkhub-base/blob/master/LICENSE
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com
+[roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
+[roadmap]: https://github.com/parkhub/eslint-config-parkhub-base/blob/master/ROADMAP.md
+[github-watch-badge]: https://img.shields.io/github/watchers/parkhub/eslint-config-parkhub-base.svg?style=social
+[github-watch]: https://github.com/parkhub/eslint-config-parkhub-base/watchers
+[github-star-badge]: https://img.shields.io/github/stars/parkhub/eslint-config-parkhub-base.svg?style=social
+[github-star]: https://github.com/parkhub/eslint-config-parkhub-base/stargazers
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20prettier-eslint-cli!%20https://github.com/parkhub/eslint-config-parkhub-base%20%F0%9F%91%8D
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/parkhub/eslint-config-parkhub-base.svg?style=social
+[semantic-release]: https://github.com/semantic-release/semantic-release
+[commitizen-friendly-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[comm-friendly-badge]: http://commitizen.github.io/cz-cli/
+
+
 

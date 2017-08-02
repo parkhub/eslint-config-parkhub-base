@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-parkhub-base",
+  "name": "@parkhub/eslint-config-parkhub-base",
   "description": "Parkhub's Canonical base Javascript eslint rules!",
   "author": "Daniel Olivares",
   "version": "0.0.0-semantically-released",
@@ -87,5 +87,8 @@
   },
   "bugs": {
     "url": "https://github.com/parkhub/eslint-config-parkhub-base/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
