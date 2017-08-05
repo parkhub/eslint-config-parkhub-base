@@ -18,6 +18,33 @@ This are the base rules(non-React)
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
 
+## Install
+You must install peerDependencies.
+
+To list them:
+```bash
+npm info @parkhub/eslint-config-parkhub-base peerDependencies
+```
+
+Then install them by running:
+```bash
+npm install -D <dependency:version>
+```
+
+Or, in your OSX/Linux:
+```bash
+(
+  export PKG=@parkhub/eslint-config-parkhub-base;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install -D "$PKG@latest"
+)
+```
+
+## Usage
+In your ```.eslintrc``` or ```.eslintrc.js``` add:
+```json
+"extends": "parkhub-base"
+```
+
 ## Differences
 ### [newline-per-chained-call][nlpcc]
 **Reasoning**: a depth of 4 is too deep. Much cleaner at two
@@ -134,33 +161,6 @@ Our chosen test runner of choice is [Jest][jest] due to its compatibility with [
 ```
 
 You can read about each rule in the plugin's docs.
-
-##Install
-You must install peerDependencies.
-
-To list them:
-```bash
-npm info @parkhub/eslint-config-parkhub-base peerDependencies
-```
-
-Then install them by running:
-```bash
-npm install -D <dependency:version>
-```
-
-Or, in your OSX/Linux:
-```bash
-(
-  export PKG=@parkhub/eslint-config-parkhub-base;
-  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install -D "$PKG@latest"
-)
-```
-
-## Usage
-In your ```.eslintrc``` or ```.eslintrc.js``` add:
-```json
-"extends": "parkhub-base"
-```
 
 ## Want changes?
 These rules were agreed upon once upon a time and can be changed with valid reasoning. They will be updated as newer versions of Javascript features are released. If you want to request a change, create a PR and make the change and include your reasoning.
