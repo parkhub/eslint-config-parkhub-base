@@ -17,41 +17,35 @@
     "dist"
   ],
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.1.0"
+    "eslint-config-airbnb-base": "^13.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.0.1",
-    "babel-jest": "^21.2.0",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^23.4.2",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-strict-mode": "^6.24.1",
-    "babel-preset-env": "^1.6.1",
-    "codecov": "^3.0.0",
-    "commitizen": "^2.9.6",
-    "condition-codefresh": "^1.0.1",
+    "babel-preset-env": "^1.7.0",
+    "codecov": "^3.0.4",
+    "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",
-    "documentation": "^5.3.3",
-    "eslint": "^4.10.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.2.0",
+    "eslint": "^5.2.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
     "husky": "^0.14.3",
-    "jest": "^21.2.1",
-    "nps": "^5.7.1",
-    "nps-utils": "^1.5.0",
+    "jest": "^23.4.2",
+    "nps": "^5.9.2",
+    "nps-utils": "^1.6.0",
     "opt-cli": "^1.6.0",
-    "prettier-eslint-cli": "^4.4.0",
+    "prettier-eslint-cli": "^4.7.1",
     "rimraf": "^2.6.2",
-    "semantic-release": "^8.2.0",
+    "semantic-release": "^15.9.2",
     "validate-commit-msg": "^2.14.0"
   },
   "peerDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.2.0"
-  },
-  "release": {
-    "verifyConditions": "condition-codefresh",
-    "debug": false
+    "eslint": "^5.2.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0"
   },
   "config": {
     "commitizen": {
@@ -60,12 +54,14 @@
   },
   "jest": {
     "verbose": true,
+    "testEnvironment": "node",
+    "collectCoverage": true,
     "coverageThreshold": {
       "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
+        "branches": 85,
+        "functions": 85,
+        "lines": 85,
+        "statements": 85
       }
     },
     "testMatch": [
