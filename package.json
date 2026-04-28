@@ -17,7 +17,7 @@
     "dist"
   ],
   "dependencies": {
-    "eslint-config-airbnb-base": "^13.1.0"
+    "eslint-config-airbnb-base": "^13.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
